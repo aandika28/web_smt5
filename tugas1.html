@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Isi Biodata</title>
+	<link rel="stylesheet" type="text/css" href="./asset/style_tugas1.css">
+</head>
+<body>
+
+	<h2 align="center">FORM BIODATA</h2>
+
+	<form>
+		<table >
+	<tr>
+		<th>NIM</th>
+		<th>:</th>
+		<th>
+	<input type="number" placeholder="Masukkan NIM"></th>
+	</tr>
+
+	<tr>
+		<th>NAMA</th>
+		<th>:</th>
+		<th>	
+			<input type="text" placeholder="Masukkan Nama Lengkap" size ="35px" >
+		</th>
+	</tr>
+
+	<tr>
+		<th>JENIS KELAMIN</th>
+		<th>:</th>
+		<td>	
+			<input type="radio" name="jk" checked> Pria
+	<input type="radio" name="jk"> Wanita
+
+		</td>
+	</tr>
+
+	<tr>
+		<th>JURUSAN</th>
+		<th>:</th>
+		<td>	
+			<select name="jurusan">
+				<option value="">Pilihan</option>
+				<option value="S1TI">S1 TI</option>
+				<option value="D3MI">D3 MI</option>
+			</select>
+		</td>
+	</tr>
+
+	<tr>
+		<th>HOBBY</th>
+		<th>:</th>
+		<td>	
+			<input type="checkbox" name="cb" value="komputer" > Komputer
+			<input type="checkbox" name="cb" value="musik" > Musik
+			<input type="checkbox" name="cb" value="olahraga" > Olahraga
+			<input type="checkbox" name="cb" value="travelling" > Travelling
+
+		</td>
+	</tr>
+
+	<tr>
+		<th>CATATAN</th>
+		<th>:</th>
+		<td>	
+			<textarea cols="40" rows="5"></textarea>
+
+		</td>
+	</tr>
+
+	<tr>
+		<th>FOTO</th>
+		<th>:</th>
+		<td>	
+			<input type="file" name="foto" accept="image/*">
+		</td>
+	</tr>
+
+	<tr>
+		<th>EMAIL</th>
+		<th>:</th>
+		<th>	
+			<input type="text" placeholder="Masukkan Email" size ="35px" >
+		</th>
+	</tr>
+
+	<tr>
+		<th>SANDI LOGIN</th>
+		<th>:</th>
+		<th>	
+			<input type="password" placeholder="Masukkan Sandi Login" size ="35px" >
+		</th>
+	</tr>
+
+	<tr>
+		<th>ULANGI SANDI LOGIN</th>
+		<th>:</th>
+		<th>	
+			<input type="password" placeholder="Masukkan Lagi Sandi Login" size ="35px" >
+		</th>
+	</tr>
+
+	<tr>
+		<th></th>
+		<th></th>
+		<th>	
+			<input type="submit" name="sb" value="Simpan">
+			<input type="reset" value="Batal">
+			<input type="button" value="Peringatan" onclick="alert('Awas')">
+		</th>
+		</th>
+	</tr>
+
+
+</table>
+	</form>
+</body>
+</html>
